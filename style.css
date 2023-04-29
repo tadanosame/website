@@ -3,6 +3,10 @@ body {
     height: 100%;
 }
 
+h1 {
+    display: flex;
+}
+
 img {
 max-width: 100%;
 height: auto;
