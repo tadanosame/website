@@ -3,7 +3,7 @@ body {
     height: 100%;
 }
 
-btn {
+.btn {
     display: block;
     width: 300px;
     padding: 20px 0;
