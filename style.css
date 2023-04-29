@@ -40,17 +40,6 @@ height: auto;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
+    white-space: nowrap;
 }
 
-a:hover {
-    background-position: 0 0;
-}
-
-  /****** Base style. ******/
-body {
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    font-family: "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
-}
