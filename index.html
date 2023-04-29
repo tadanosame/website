@@ -1,31 +1,50 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HKQR1FMHJ0"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+body {
+    background-color: #50586C;
+    height: 100%;
+}
 
-        gtag('config', 'G-HKQR1FMHJ0');
-    </script>
-    <title>ただのサメ公式</title>
-</head>
+h1 {
+    display: flex;
+}
 
-<body>
-    <h1>Hi,I'm tadanosame.</h1>
-    <h2>ただのサメ</h2>
-    <img src="https://cdn.discordapp.com/attachments/989780394033414184/1096449846044524584/0fd1958aea0be2eb02ab3ebb816603b7.png">
-    <p>
-        どうもただのサメです。お名前ドットコムで無料だったんで買いました。html,CSS勉強中です。
-    </p>
-    <a href="https://discordapp.com/users/919197166306754602" class="btn">Discord Account</a>
-    <br>
-    <a href="https://discord.gg/NKeX6Tj64x" class="btn">Discord Server</a>
-    <br>
-    <a href="https://qiita.com/tadanosame" class="btn">Qiita</a>
-</body>
-</html>
+img {
+max-width: 100%;
+height: auto;
+}
+
+.btn {
+    display: block;
+    width: 300px;
+    padding: 20px 0;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 100% 0;
+    background-size: 200% auto;
+    background-image: linear-gradient(
+    to right,
+    #a48c61 0%,
+    #a48c61 50%,
+    #000000 50%,
+    #000000 100%
+    );
+    box-shadow: 0 3px 10px rgb(0 0 0 / 16%);
+    transition: background-position ease 0.4s;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a:hover {
+    background-position: 0 0;
+}
+
+  /****** Base style. ******/
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: "Yu Gothic Medium", "游ゴシック Medium", "Yu Gothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo";
+}
